@@ -42,17 +42,17 @@ class group(object):
 class images(object):
     
     # DEFAULT THUMBNAIL ❌ NB: Thumbnails can’t be reused and can be only uploaded as a new file ❌
-    PDF_THUMBNAIL = "./images/thumbnail.jpeg"                              # PDF_THUMBNAIL & THUMBNAIL_URL must point same img
+    PDF_THUMBNAIL = "./images/i2pdfbot.jpg"                              # PDF_THUMBNAIL & THUMBNAIL_URL must point same img
     THUMBNAIL_URL = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"   # to inc. meadia edit speed
     
     # WELCOME IMAGE
-    WELCOME_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    WELCOME_PIC = "https://te.legra.ph/i2pdfbot-07-16"
     
     # BANNED IMAGE
-    BANNED_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BANNED_PIC = "https://te.legra.ph/i2pdfbot-07-16"
     
     # BIG FILE
-    BIG_FILE = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BIG_FILE = "https://te.legra.ph/i2pdfbot-07-16"
 
 
 class settings(object):
@@ -78,14 +78,14 @@ class settings(object):
 
     MULTI_LANG_SUP = True if os.environ.get('MULTI_LANG_SUP', "False") == "True" else False
     
-    REPORT = "https://t.me/ilovepdf_bot/33?comment=1000000000"
+    REPORT = "https://t.me/i2pdfbotchannel/9?comment=160"
     
-    FEEDBACK = "https://telegram.dog/ilovepdf_bot"
+    FEEDBACK = "https://t.me/i2pdfbotchannel/9?comment=200"
     
-    SOURCE_CODE = "https://github.com/nabilanavab/iLovePDF"
+    SOURCE_CODE = "https://t.me/i2pdfbotchannel/"
     
     OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
     
-    OWNED_CHANNEL = "https://telegram.dog/iLovePDF_bot"
+    OWNED_CHANNEL = "https://t.me/i2pdfbotchannel/"
     
 # ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
