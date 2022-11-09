@@ -82,7 +82,7 @@ class settings(object):
     
     FEEDBACK = "https://t.me/i2pdfbotchannel/9?comment=200"
     
-    SOURCE_CODE = "https://t.me/i2pdfbotchannel/"
+    SOURCE_CODE = "https://t.me/newfileconverter1bot"
     
     OWNER_ID, OWNER_USERNAME = 5198110160, "nabilanavab"
     
