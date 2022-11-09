@@ -88,7 +88,7 @@ HELP_CMD = {
 /delete: clear image to pdf queue\n/txt2pdf: text to pdf""",
     "adminHelp" : """\n\n\n[ADMIN COMMAND MESSAGES]:\n
 /send: to broadcast, pm message""",
-    "footerHelp" : f"""\n\n\nSource-Code: [i 💜 PDF]({str(settings.SOURCE_CODE)})
+    "footerHelp" : f"""\n\n\nfile converter: [i2pdf bot]({str(settings.SOURCE_CODE)})
 Bot: @i2pdfbot 💎\n[Support Channel]({settings.OWNED_CHANNEL})""",
     "CB" : {"⚠️ CLOSE ⚠️" : "close|all"}
 }
