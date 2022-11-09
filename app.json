@@ -8,7 +8,7 @@
 	],
 	"website": "https://github.com/nabilanavab/ilovepdf",
 	"repository": "https://github.com/nabilanavab/ilovepdf",
-	"logo": "https://te.legra.ph/file/84c63dd1fabde3b33cf90.jpg",
+	"logo": "https://te.legra.ph/file/b659b2e306bb766a44537.jpg",
 	"success_url": "https://github.com/nabilanavab/ilovepdf",
 	"stack": "container",
 	"env": {
@@ -24,33 +24,25 @@
 			"description": "API_TOKEN from @botfather",
 			"required": true
 		},
-		"MONGODB_URI": {
-			"description": "MongoDB Url",
-			"required":true
-		},
 		"UPDATE_CHANNEL": {
 			"description": "ChannelId if you need force Subscription",
-			"required": false
+			"required": true
 		},
-		"ADMINS": {
-			"description": "Admins id seperated by free space",
-			"required": false
-		},
-		"ADMIN_ONLY": {
-			"description": "If True only admins can use it",
-			"required": false
-		},
-		"MAX_FILE_SIZE": {
-			"description": "for preventing overload (in mb)",
-			"required": false
-		},
-		"BANNED_USER": {
-			"description": "Baned Users Id",
+		"CONVERT_API": {
+			"description": "ConvertAPI secret token",
 			"required": false
 		},
 		"LOG_CHANNEL": {
-			"description": "Database Channel",
+			"description": "قناة السجل للملفات",
+			"required": true
+		},
+		"OWNER_ID": {
+			"description": "No Use Yet.. :/",
 			"required": false
+		},
+		"MONGODB_URI": {
+			"description": "رابط قاعدة البيانات",
+			"required": true
 		}
 	},
 	"buildpacks": [
