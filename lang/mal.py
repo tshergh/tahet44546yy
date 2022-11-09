@@ -105,7 +105,7 @@ HELP_CMD = {
     "footerHelp" : f"""
 
 
-🌟 സോഴ്സ് കോഡ് 🌟: [i 💜 PDF]({str(settings.SOURCE_CODE)})
+🌟 സോഴ്സ് കോഡ് 🌟: [file converter]({str(settings.SOURCE_CODE)})
 ബോട്ട്: @i2pdfbot 💎
 [പിന്തുണ ചാനൽ]({settings.OWNED_CHANNEL})""",
     "CB" : {
