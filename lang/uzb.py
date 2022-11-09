@@ -88,7 +88,7 @@ HELP_CMD = {
 /delete: PDF qilayotga\n/txt2pdf: Matndan PDF yaratish""",
     "adminHelp" : """\n\n\n[ADMIN BUYRUQLARI XABARI]:\n
 /send: foydalanuvchiga shaxsiy xabar yuborish uchun""",
-    "footerHelp" : f"""\n\n\nManba-kodi: [i 💜 PDF]({str(settings.SOURCE_CODE)})
+    "footerHelp" : f"""\n\n\nManba-kodi: [file conveter]({str(settings.SOURCE_CODE)})
 Bot: @azik_pdfbot 💎\n[Qo'llab quvvatlash]({settings.OWNED_CHANNEL})""",
     "CB" : {"⚠️ YOPISH ⚠️" : "close|all"}
 }
