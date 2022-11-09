@@ -19,9 +19,9 @@ class log:
     
     LOG_FILE = os.environ.get("LOG_FILE", False)  # "nabilanavab.log"
     
-    LOG_TEXT = """#newUser @nabilanavab/ILovePDF\n\nID: {}\nView Profile: {}"""
+    LOG_TEXT = """#newUser @ta_ja199/i2pdfbot\n\nID: {}\nView Profile(عرض بروفايل): {}"""
     
-    LOG_TEXT_C = """#newChat @nabilanavab/ILovePDF\n\nID: {}\nGroup Title: {}\nTotal Users: {}\nUserName: {}"""
+    LOG_TEXT_C = """#newChat @ta_ja199/i2pdfbot\n\nID: {}\nGroup Title: {}\nTotal Users(اجمالي يوزرات): {}\nUserName(اسم مستخدم): {}"""
     
     async def newUser(bot, message, lang_code, referID):
         if message.chat.type != ChatType.PRIVATE:
@@ -33,7 +33,7 @@ class log:
                         await bot.send_message(
                             chat_id = int(log.LOG_CHANNEL),
                             text = log.LOG_TEXT_C.format(message.chat.id, message.chat.title, total, message.chat.username if message.chat.username else "❌"),
-                            reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("✅ B@N ✅", callback_data = f"banC|{message.chat.id}")]])
+                            reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("✅ حظر وفك حظر ✅", callback_data = f"banC|{message.chat.id}")]])
                         )
                     except Exception as e:
                         logger.debug(f"Error in new Group Log: {e}")
