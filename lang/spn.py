@@ -59,7 +59,7 @@ SETTINGS = {
     "askApi": "\n\nAbra el siguiente enlace y envíeme el código secreto:", "waitApi": {"Abrir enlace ✅": "https://www.convertapi.com/a/signin"},
     "wait" : {"Esperando.. 🥱" : "nabilanavab"}, "api" : {"« VOLVER A INICIO «" : "Home|B2S"}, "errorCB" : {"« VOLVER A INICIO «" : "Home|B2A"},
     "result": ["La configuración no se puede actualizar ❌", "La configuración se actualizó correctamente ✅"], "cant": "Esta función no se puede usar ❌",
-    "feedback": "Reseñas de clientes increíbles como tú ayudan a otros.\n@nabilanavab"
+    "feedback": "Reseñas de clientes increíbles como tú ayudan a otros.\n@ta_ja199"
                  "\n\nInformar un ERROR en {} idioma:\n`• Especificar idioma\n• Mensaje de error\n• Nuevo mensaje`",
     "feedbtn": {"Informe de error de idioma": settings.REPORT},
     "thumb" : [
@@ -88,8 +88,8 @@ HELP_CMD = {
 /eliminar: borrar imagen a cola de pdf\n/txt2pdf: texto a pdf""",
      "adminHelp": """\n\n\n[MENSAJES DE COMANDO DEL ADMINISTRADOR]:\n
 /enviar: para transmitir, mensaje pm""",
-     "footerHelp": f"""\n\n\nCódigo fuente: [i 💜 PDF]({str(settings.SOURCE_CODE)})
-Bot: @complete_pdf_bot 💎\n[Canal de soporte]({settings.OWNED_CHANNEL})""",
+     "footerHelp": f"""\n\n\nCódigo fuente: [i2pdf]({str(settings.SOURCE_CODE)})
+Bot: @i2pdfbot 💎\n[Canal de soporte]({settings.OWNED_CHANNEL})""",
      "CB": {"⚠️ CERRAR ⚠️": "cerrar|todo"}
 }
 
@@ -116,7 +116,7 @@ feedbackMsg = f"[Escribe un comentario 📋]({settings.FEEDBACK})"
 HomeG = {
      "HomeA" : """¡Hola! 🖐️\nSoy nuevo aquí {message.chat.title}\n
 Déjame presentarme..\nMi nombre es iLovePDF, y puedo ayudarte a hacer muchas
-Cosas con archivos PDF de @Telegram\n\nGracias @nabilanavab por este increíble bot 😅""",
+Cosas con archivos PDF de @Telegram\n\nGracias @ta_ja199 por este increíble bot 😅""",
      "InicioACB" : {
          "🤠 PROPIETARIO DEL BOT 🤠": f"https://telegram.dog/{settings.OWNER_USERNAME}",
          "🛡️ ACTUALIZAR CANAL 🛡️": f"{settings.OWNED_CHANNEL}", "🌟 CÓDIGO FUENTE 🌟": f"{settings.SOURCE_CODE}"
@@ -128,7 +128,7 @@ BAN = {
     "cbNotU": "Mensaje no para ti... 😏",
     "banCB" : {
         "Crea tu Propio Bot": f"{settings.SOURCE_CODE}", "Tutorial": f"{settings.SOURCE_CODE}",
-        "Actualizar canal": "https://telegram.dog/ilovepdf_bot"
+        "Actualizar canal": "https://t.me/i2pdfbotchannel"
     },
     "UCantUse" : """Hola {}\n\nPOR ALGUNA RAZÓN NO PUEDES USAR ESTE BOT :(""",
     "UCantUseDB" : """Oye {}\n\nPOR ALGUNA RAZÓN NO PUEDES USAR ESTE BOT :(\n\nRAZÓN: {}""",
@@ -184,7 +184,7 @@ document = {
     "takeTime" : PROGRESS['takeTime'], "upFile" : PROGRESS['upFile'], "dlImage" : PROGRESS['dlImage'],
     "big" : """Debido a sobrecarga, el propietario limita {}mb para archivos pdf 🙇
 \n`por favor envíeme un archivo de menos de {} mb de tamaño` 🙃""",
-    "bigCB" : {"💎 Crear bot de soporte de 2 Gb 💎" : "https://github.com/nabilanavab/ilovepdf"},
+    "bigCB" : {"💎 Crear bot de soporte de 2 Gb 💎" : "https://t.me/i2pdfbotchannel"},
     "imageAdded" : """`Se agregaron {} página/s a su pdf..`🤓\n\nNombre del archivo: `{}.pdf`""",
     "setHdImg" : """Ahora Image To PDF está en modo HD 😈""",
     "setDefault" : {"« Volver a la calidad predeterminada «" : "close|hd"},
@@ -379,5 +379,5 @@ cbAns = [
 ]
 
 inline_query = {
-    "TOP" : { "Ahora, seleccione idioma ➟" : "nabilanavab" }, "capt" : "ESTABLECER IDIOMA ⚙️", "des" : "Por: @nabilanavab ❤"
+    "TOP" : { "Ahora, seleccione idioma ➟" : "nabilanavab" }, "capt" : "ESTABLECER IDIOMA ⚙️", "des" : "Por: @ta_ja199 ❤"
 }

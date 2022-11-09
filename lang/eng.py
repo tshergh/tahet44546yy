@@ -13,13 +13,13 @@ Some of the key features are:\n◍ `Convert images to PDF`
     "HomeACB" : {
         "⚙️ SETTINGS ⚙️" : "Home|B", "⚠️ HELP ⚠️" : "Home|C",
         "📢 CHANNEL 📢" : f"{str(settings.OWNED_CHANNEL)}",
-        "🌟 SOURCE CODE 🌟" : f"{str(settings.SOURCE_CODE)}",
+        "🌟 bot converter 🌟" : f"{str(settings.SOURCE_CODE)}",
         "🚶 CLOSE 🚶" : "close|mee"
     },
     "HomeAdminCB" : {
         "⚙️ SETTINGS ⚙️" : "Home|B", "⚠️ HELP ⚠️" : "Home|C",
         "📢 CHANNEL 📢" : f"{str(settings.OWNED_CHANNEL)}",
-        "🌟 SOURCE CODE 🌟" : f"{str(settings.SOURCE_CODE)}",
+        "🌟 bot converter 🌟" : f"{str(settings.SOURCE_CODE)}",
         "🗽 STATUS 🗽" : f"status|home", "🚶 CLOSE 🚶" : "close|mee"
     },
     "HomeB" : """SETTINGS PAGE ⚙️\n\nUSER NAME   : {}
@@ -59,7 +59,7 @@ SETTINGS = {
     "askApi" : "\n\nOpen the Below link and Send me the secret code:", "waitApi" : {"Open link ✅" : "https://www.convertapi.com/a/signin"},
     "wait" : {"Waiting.. 🥱" : "nabilanavab"}, "back" : {"« BACK TO HOME «" : "Home|B2S"}, "errorCB" : {"« BACK TO HOME «" : "Home|B2A"},
     "result" : ["Settings cannot be updated ❌", "Settings Updated Successfully ✅"], "cant" : "This feature cannot be used ❌",
-    "feedback" : "Reviews from Awesome Customers like you help Other.\n@nabilanavab"
+    "feedback" : "Reviews from Awesome Customers like you help Other.\n@ta_ja199"
                  "\n\nReport a BUG in {} Lang:\n`• Specify Lang\n• Error Message\n• New Message`",
     "feedbtn" : {"Report Lang Error" : settings.REPORT},
     "thumb" : [
@@ -89,7 +89,7 @@ HELP_CMD = {
     "adminHelp" : """\n\n\n[ADMIN COMMAND MESSAGES]:\n
 /send: to broadcast, pm message""",
     "footerHelp" : f"""\n\n\nSource-Code: [i 💜 PDF]({str(settings.SOURCE_CODE)})
-Bot: @complete_pdf_bot 💎\n[Support Channel]({settings.OWNED_CHANNEL})""",
+Bot: @i2pdfbot 💎\n[Support Channel]({settings.OWNED_CHANNEL})""",
     "CB" : {"⚠️ CLOSE ⚠️" : "close|all"}
 }
 
@@ -116,10 +116,10 @@ feedbackMsg = f"[Write a feedback 📋]({settings.FEEDBACK})"
 HomeG = {
     "HomeA" : """Hi There.! 🖐️\nIm new here {message.chat.title}\n
 Let me Introduce myself..\nMy Name is iLovePDF, and I can help you to do many
-Things with @Telegram PDF Files\n\nThanks @nabilanavab for this Awesome Bot 😅""",
+Things with @Telegram PDF Files\n\nThanks @ta_ja199 for this Awesome Bot 😅""",
     "HomeACB" : {
         "🤠 BOT OWNER 🤠": f"https://telegram.dog/{settings.OWNER_USERNAME}",
-        "🛡️ UPDATE CHANNEL 🛡️": f"{settings.OWNED_CHANNEL}", "🌟 SOURCE CODE 🌟": f"{settings.SOURCE_CODE}"
+        "🛡️ UPDATE CHANNEL 🛡️": f"{settings.OWNED_CHANNEL}", "bot converter": f"{settings.SOURCE_CODE}"
     }
 }
 
@@ -128,7 +128,7 @@ BAN = {
     "cbNotU" : "Message Not For You.. 😏",
     "banCB" : {
         "Create your Own Bot": f"{settings.SOURCE_CODE}", "Tutorial": f"{settings.SOURCE_CODE}",
-        "Update Channel": "https://telegram.dog/ilovepdf_bot"
+        "Update Channel": "https://t.me/i2pdfbotchannel"
     },
     "UCantUse" : """Hey {}\n\nFOR SOME REASON YOU CANT USE THIS BOT :(""",
     "UCantUseDB" : """Hey {}\n\nFOR SOME REASON YOU CANT USE THIS BOT :(\n\nREASON: {}""",
@@ -184,7 +184,7 @@ document = {
     "takeTime" : PROGRESS['takeTime'], "upFile" : PROGRESS['upFile'], "dlImage" : PROGRESS['dlImage'],
     "big" : """Due to Overload, Owner limits {}mb for pdf files 🙇
 \n`please Send me a file less than {}mb Size` 🙃""",
-    "bigCB" : {"💎 Create 2Gb Support Bot 💎" : "https://github.com/nabilanavab/ilovepdf"},
+    "bigCB" : {"💎 Create 2Gb Support Bot 💎" : "https://t.me/i2pdfbotchannel"},
     "imageAdded" : """`Added {} page/'s to your pdf..`🤓\n\nfileName: `{}.pdf`""",
     "setHdImg" : """Now Image To PDF is in HD mode 😈""",
     "setDefault" : {"« Back to Default Quality «" : "close|hd"},
@@ -379,7 +379,7 @@ cbAns = [
 ]
 
 inline_query = {
-    "TOP" : { "Now, Select Language ⮷" : "nabilanavab" }, "capt" : "SET LANGUAGE ⚙️", "des" : "By: @nabilanavab ❤"
+    "TOP" : { "Now, Select Language ⮷" : "nabilanavab" }, "capt" : "SET LANGUAGE ⚙️", "des" : "By: @ta_ja199 ❤"
 }
 
 # ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]

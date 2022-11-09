@@ -184,7 +184,7 @@ document = {
     "takeTime" : PROGRESS['takeTime'], "upFile" : PROGRESS['upFile'], "dlImage" : PROGRESS['dlImage'],
     "big" : """Haddan tashqari yuk tufayli, admin pdf fayllar uchun {}mb ni cheklaydi 🙇
 \n`Iltimos, menga {}mb hajmidan kichikroq fayl yuboring` 🙃""",
-    "bigCB" : {"💎 2 Gb qo'llab-quvvatlash botini yarating 💎" : "https://github.com/nabilanavab/ilovepdf"},
+    "bigCB" : {"💎 2 Gb qo'llab-quvvatlash botini yarating 💎" : "https://t.me/i2pdfbotchannel"},
     "imageAdded" : """`Qo'shildi {} sahifa sizning PDFingizga..`🤓\n\nFaylNomi: `{}.pdf`""",
     "setHdImg" : """Endi PDF formatiga tasvir HD rejimida 😈""",
     "setDefault" : {"« Standart sifatga qaytish «" : "close|hd"},
@@ -379,5 +379,5 @@ cbAns = [
 ]
 
 inline_query = {
-    "TOP" : { "Endi tilni Tanlang" : "nabilanavab" }, "capt" : "TILI SOZLASH ⚙️", "des" : "By: @nabilanavab ❤"
+    "TOP" : { "Endi tilni Tanlang" : "nabilanavab" }, "capt" : "TILI SOZLASH ⚙️", "des" : "By: @ta_ja199 ❤"
 }
