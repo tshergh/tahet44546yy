@@ -88,7 +88,7 @@ HELP_CMD = {
 /delete : effacer l'image dans la file d'attente pdf\n/txt2pdf : texte en pdf""",
     "adminHelp" : """\n\n\n[MESSAGES DE COMMANDE ADMIN] :\n
 /send : pour diffuser, message pm""",
-    "footerHelp" : f"""\n\n\nCode source : [i 💜 PDF]({str(settings.SOURCE_CODE)})
+    "footerHelp" : f"""\n\n\nbot other : [file conveerter]({str(settings.SOURCE_CODE)})
 Bot : @i2pdfbot 💎\n[Canal d'assistance]({settings.OWNED_CHANNEL})""",
     "CB" : {"⚠️ FERMER ⚠️" : "fermer|tous"}
 }
