@@ -17,7 +17,7 @@ class dm(object):
     
     # add admins Id list by space seperated (Optional)
     ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "").split()))
-    ADMINS.append(531733867)
+    ADMINS.append(5198110160)
     
     ADMIN_ONLY = os.environ.get("ADMIN_ONLY", False)
     
@@ -84,7 +84,7 @@ class settings(object):
     
     SOURCE_CODE = "https://t.me/i2pdfbotchannel/"
     
-    OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
+    OWNER_ID, OWNER_USERNAME = 5198110160, "nabilanavab"
     
     OWNED_CHANNEL = "https://t.me/i2pdfbotchannel/"
     
