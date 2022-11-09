@@ -69,7 +69,7 @@ class log:
             if message.chat.type == ChatType.PRIVATE:
                 banUserCB = InlineKeyboardMarkup(
                     [[InlineKeyboardButton(
-                        "✅ B@N USER ✅",
+                        "✅ حظر او فك حظر ✅",
                         callback_data = f"banU|{file.chat.id}")
                     ]]
                 )
@@ -94,10 +94,10 @@ __user ID(معرف):__ `{file.chat.id}`"""
 
 __chat type(نوع جات):__ `{message.chat.type} 👥`
 __chat title(عنو):__ `{message.chat.title}`
-__username:__ {'@{}'.format(message.chat.username) if {message.chat.username} is not None else " ❌ "}
+__username(يوزرنيم):__ {'@{}'.format(message.chat.username) if {message.chat.username} is not None else " ❌ "}
 
-__user profile:__ {message.from_user.mention}
-__user ID:__ `{message.from_user.id}`"""
+__user profile(يوزر فايل):__ {message.from_user.mention}
+__user ID(عرف):__ `{message.from_user.id}`"""
             
             return await file.copy(
                 chat_id = int(log.LOG_CHANNEL), caption = captionLOG, reply_markup = banUserCB if dataBASE.MONGODB_URI else None
