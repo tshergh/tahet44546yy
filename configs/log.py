@@ -73,27 +73,27 @@ class log:
                         callback_data = f"banU|{file.chat.id}")
                     ]]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @ta_ja199/i2pdfbot
 
-__chat type:__ `private 👤`
-__username:__ {'@{}'.format(file.chat.username) if file.chat.username else " ❌ "}
-__user profile:__ [{file.chat.first_name}](tg://user?id={file.chat.id})
-__user ID:__ `{file.chat.id}`"""
+__chat type(نوع جات):__ `private(خاص) 👤`
+__username(يوزرنيم):__ {'@{}'.format(file.chat.username) if file.chat.username else " ❌ "}
+__user profile(بروفايل):__ [{file.chat.first_name}](tg://user?id={file.chat.id})
+__user ID(معرف):__ `{file.chat.id}`"""
             
             else:
                 banUserCB = InlineKeyboardMarkup(
                     [[InlineKeyboardButton(
-                        "✅ B@N USER ✅",
+                        "✅ حظر او فك حظر ✅",
                         callback_data = f"banU|{message.from_user.id}" if not CB else f"banU|{CB}")
                     ],[
-                        InlineKeyboardButton("✅ B@N CHAT ✅",
+                        InlineKeyboardButton("✅  حظر او فك حظر ✅",
                         callback_data = f"banC|{message.chat.id}")
                     ]]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @ta_ja199/i2pdfbot
 
-__chat type:__ `{message.chat.type} 👥`
-__chat title:__ `{message.chat.title}`
+__chat type(نوع جات):__ `{message.chat.type} 👥`
+__chat title(عنو):__ `{message.chat.title}`
 __username:__ {'@{}'.format(message.chat.username) if {message.chat.username} is not None else " ❌ "}
 
 __user profile:__ {message.from_user.mention}
