@@ -43,7 +43,7 @@ class images(object):
     
     # DEFAULT THUMBNAIL ❌ NB: Thumbnails can’t be reused and can be only uploaded as a new file ❌
     PDF_THUMBNAIL = "./images/i2pdfbot.jpg"                              # PDF_THUMBNAIL & THUMBNAIL_URL must point same img
-    THUMBNAIL_URL = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"   # to inc. meadia edit speed
+    THUMBNAIL_URL = "https://te.legra.ph/i2pdfbot-07-16"   # to inc. meadia edit speed
     
     # WELCOME IMAGE
     WELCOME_PIC = "https://te.legra.ph/i2pdfbot-07-16"
