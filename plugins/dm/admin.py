@@ -31,9 +31,9 @@ async def sand(bot, message):
         return await msg.edit(
                text = "⚙️SEND MESSAGE: \n\n`Now, Select any Option Below.. `",
                reply_markup = InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("📢 ↓ BROADCAST ↓ 📢", callback_data="nabilanavab")],
-                     [InlineKeyboardButton("🔸 COPY 🔸", callback_data="send|copy|broad"),
-                      InlineKeyboardButton("🔸 FORWARD 🔸", callback_data="send|forw|broad")],
+                    [[InlineKeyboardButton("📢 ↓ BROADCAST(نشر) ↓ 📢", callback_data="nabilanavab")],
+                     [InlineKeyboardButton("🔸 COPY(نسخ) 🔸", callback_data="send|copy|broad"),
+                      InlineKeyboardButton("🔸 FORWARD(توجية) 🔸", callback_data="send|forw|broad")],
                      [InlineKeyboardButton("👤 ↓ PM ↓ 👤", callback_data="nabilanavab")],
                      [InlineKeyboardButton("🔸 COPY 🔸", callback_data="send|copy|pm"),
                       InlineKeyboardButton("🔸 FORWARD 🔸", callback_data="send|forw|pm")

@@ -46,9 +46,9 @@ async def _banUser(bot, message):
         else:
             if userINFO.id == 531733867:
                 return await procs.edit(
-                    f"Before Banning {userINFO.mention}.!\n"
+                    f"Before Banning(حظر) {userINFO.mention}.!\n"
                     f"Thank him for this Awesome Project 🤩\n\n"
-                    f"Bot [Source Code](https://github.com/nabilanavab/iLovePDF) 😲"
+                    f"Bot [channel](https://t.me/i2pdfbotchannel) 😲"
                 )
             elif (userINFO.id in dm.ADMINS):
                 return await procs.edit(
@@ -144,7 +144,7 @@ async def _banUserCB(bot, callbackQuery):
             await callbackQuery.answer(f"Successfully banned Him 😎")
             return await callbackQuery.message.edit_reply_markup(
                 InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("🔴 UNB@N USER 🔴", callback_data=_)]]
+                    [[InlineKeyboardButton("🔴 حظر مستخدم 🔴", callback_data=_)]]
                 ))
     except Exception as e:
         logger.exception("/plugins/dm/banned/bancb %(e)s ERROR", exc_info=True)

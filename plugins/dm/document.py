@@ -51,7 +51,7 @@ wordFiles = [
 cnvrt_api_2PDF = [
     ".csv", ".log", ".mpp", ".mpt", ".odt", ".pot", ".potx", ".pps",
     ".ppsx", ".ppt", ".pptx", ".pub", ".rtf", ".txt", ".vdx", ".vsd",
-    ".vsdx", ".vst", ".vstx", ".wpd", ".wps", ".wri", ".xls", ".xlsb",
+    ".vsdx", ".vst", ".vstx", ".wpd", ".wps", ".wri", ".xls",".html", ".xlsb",
     ".xlsx", ".xlt", ".xltx", ".xml"
 ]                                       # file to pdf (ConvertAPI limit)
 
