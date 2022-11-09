@@ -91,7 +91,7 @@ HELP_CMD = {
 /delete: ✅✅✅✅✅\n/txt2pdf: ✅✅✅✅✅""",
     "adminHelp" : """\n\n\n[✅✅✅✅✅]:\n
 /send: ✅✅✅✅✅""",
-    "footerHelp" : f"""\n\n\n✅✅✅✅✅: [i 💜 PDF]({str(settings.SOURCE_CODE)})
+    "footerHelp" : f"""\n\n\n✅✅✅✅✅: [i2pdf]({str(settings.SOURCE_CODE)})
 Bot: @i2pdfbot 💎\n[✅✅✅✅✅]({settings.OWNED_CHANNEL})""",
     "CB" : {"⚠️ ✅✅✅✅✅ ⚠️" : "close|all"}
 }
