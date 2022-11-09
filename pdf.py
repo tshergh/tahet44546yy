@@ -107,8 +107,8 @@ class Bot(ILovePDF):
                     f"❤ BOT ID: {myID.id}\n"
                     f"❤ BOT FILENAME: {myID.first_name}\n"
                     f"❤ BOT USERNAME: {myID.username}\n\n"
-                    f"❤ SOURCE-CODE By: @nabilanavab 👑\n"
-                    f"❤ BOT CHANNEL: t.me/iLovePDF_bot\n\n"
+                    f"❤ SOURCE-CODE By: @ta_ja199 👑\n"
+                    f"❤ BOT CHANNEL: t.me/i2pdfbotchannel\n\n"
                     f"{iLovePDF}")
         
         # -----> SETTING LOG CHANNEL <-----
@@ -123,11 +123,11 @@ class Bot(ILovePDF):
                     caption = f"{myID.first_name} get started Successfully ✅"
                 if log.LOG_FILE and log.LOG_FILE[-4:]==".log":
                     doc = f"./{log.LOG_FILE}"
-                    markUp = InlineKeyboardMarkup([[InlineKeyboardButton("♻️ refresh log ♻️", callback_data = "log")
+                    markUp = InlineKeyboardMarkup([[InlineKeyboardButton("♻️ تحديث السجل ♻️", callback_data = "log")
                              ],[InlineKeyboardButton("◍ close ◍", callback_data = "close|admin")]])
                 else:
                     doc = images.PDF_THUMBNAIL
-                    markUp = InlineKeyboardMarkup([[InlineKeyboardButton("◍ close ◍", callback_data = "close|admin")]])
+                    markUp = InlineKeyboardMarkup([[InlineKeyboardButton("◍ اغلق ◍", callback_data = "close|admin")]])
                 await app.send_document(
                     chat_id = int(log.LOG_CHANNEL), document = doc,
                     caption = caption, reply_markup = markUp
