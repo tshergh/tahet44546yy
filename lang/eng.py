@@ -1,9 +1,9 @@
-# LANG: ARABIC LANG_CODE: ARB                                      >>  copyright ©️ 2021 nabilanavab  <<                                           fileName : lang/ARB.py
+# LANG: ENGLISH LANG_CODE: ENG                                      >>  copyright ©️ 2021 nabilanavab  <<                                         fileName : lang/ENG.py
 #                                        Thank: nabilanavab                                                   E-mail: nabilanavab@gmail.com
 
 from configs.config import settings
 
-# رسالة ترحيب مساءاً (المنزل أ , ب , ج , د ...)
+# PM WELCOME MESSAGE (HOME A, B, C, D...)
 HOME = {
     "HomeA": """مرحبًا [{}](tg://user?id={}) .. !!
 سيساعدك هذا الروبوت على القيام بالعديد من الأشياء باستخدام ملفات pdf 🥳
